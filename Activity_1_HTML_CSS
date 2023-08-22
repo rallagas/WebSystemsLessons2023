@@ -1,0 +1,105 @@
+
+**Step 1: Set Up Your Development Environment**
+Before you start, make sure you have a text editor (like Visual Studio Code) installed on your computer.
+
+**Step 2: Create a Project Folder**
+Create a new folder for your portfolio project. This is where you'll store all your HTML, CSS, and other files.
+
+**Step 3: Create HTML File**
+Inside your project folder, create an `index.html` file. This will be the main page of your portfolio.
+
+**Step 4: Write HTML Structure**
+Open `index.html` in your text editor and add the following basic HTML structure:
+
+index.html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Your Name - Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Your Name</h1>
+        <p>Student &amp; Developer</p>
+    </header>
+    <section id="projects">
+        <h2>Projects</h2>
+        <!-- Add your project details here -->
+    </section>
+    <footer>
+        <p>&copy; 2023 Your Name</p>
+    </footer>
+</body>
+</html>
+
+
+**Step 5: Create CSS File**
+Inside your project folder, create a `style.css` file for styling your portfolio.
+
+**Step 6: Write CSS Styles**
+Open `style.css` and add basic CSS to style your portfolio, you can add more styles if you want:
+
+```css
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 50px;
+    background-color: #3498db;
+    color: #fff;
+}
+
+#projects {
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+```
+
+**Step 7: Add Project Details**
+Inside the `<section id="projects">` tag in your `index.html`, add details about your projects. You can use the following structure for each project:
+
+```html
+<div class="project">
+    <h3>Project Title</h3>
+    <p>Description of the project.</p>
+    <a href="project-link">View Project</a>
+</div>
+```
+
+**Step 8: Test Locally**
+Open `index.html` in your web browser to see how your portfolio looks.
+
+**Step 9: Create a GitHub Repository**
+Go to GitHub and log in to your account. Click the "+" sign in the upper right corner and select "New Repository." Follow the instructions to create a new repository for your portfolio.
+
+**Step 10: Push Your Code to GitHub**
+Follow the instructions provided by GitHub to push your code to the repository you just created. This usually involves running a few commands in your terminal.
+
+**Step 11: Set Up GitHub Pages**
+In your repository on GitHub, go to the "Settings" tab, scroll down to the "GitHub Pages" section, and choose the "main" branch as the source. This will host your portfolio as a static website using GitHub Pages.
+
+**Step 12: Access Your Portfolio**
+Once GitHub Pages has built your site (it might take a few minutes), you can access your portfolio at `https://yourusername.github.io/repositoryname`.
+
+Congratulations! You've now created a simple self-portfolio web page using HTML and CSS and deployed it on GitHub Pages. This is a great starting point, and you can continue to customize and expand your portfolio as you learn more about web development.
